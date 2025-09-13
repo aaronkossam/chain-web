@@ -26,7 +26,7 @@ const Benefit = () => {
         </div>
 
         <div className=" grid grid-cols-3 gap-3.5 pt-6">
-          <div className=" border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
+          <div className=" max-w-sm w-full sm:max-w-md lg:max-w-lg  border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
             <Image src="/eth-iso-color.png" alt="" width={70} height={50} />
             <h1 className=" font-medium pb-1.5 text-xl">
               Currencies & <br></br>
@@ -41,7 +41,7 @@ const Benefit = () => {
             </p>
           </div>
 
-          <div className=" border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
+          <div className=" max-w-sm w-full sm:max-w-md lg:max-w-lg  border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
             <Image src="/sheild-iso-color.png" alt="" width={70} height={50} />
             <h1 className=" font-medium pb-1.5 text-xl">
               Enterprise grade<br></br> security
@@ -52,7 +52,7 @@ const Benefit = () => {
               financial assets and sensitive information.
             </p>
           </div>
-          <div className=" border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
+          <div className=" max-w-sm w-full sm:max-w-md lg:max-w-lg  border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
             <Image
               src="/explorer-iso-color.png"
               alt=""

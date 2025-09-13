@@ -100,7 +100,7 @@ const HeroPage = () => {
         <Image
           src="/Frame 10.png"
           alt="frame"
-          className=" "
+          className=" mx-auto "
           width={600}
           height={300}
         />

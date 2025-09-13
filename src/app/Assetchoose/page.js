@@ -14,7 +14,9 @@ import {
 
 const list = [
   {
-    Icon1: <Image src="/protocol Icon.png" alt="" width={30} height={20} />,
+    Icon1: (
+      <Image src="/public/Protocol Icon.png" alt="" width={30} height={20} />
+    ),
     Chain: "Energy Web (EWT)",
     Swap1: <Image src="/round-x.png" alt="" width={30} height={20} />,
 

@@ -26,63 +26,47 @@ const Benefit = () => {
         </div>
 
         <div className=" grid grid-cols-3 gap-3.5 pt-6">
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Card 1 */}
-            <div className="w-full max-w-sm border border-gray-200 rounded-2xl bg-white shadow-md p-6">
-              <Image
-                src="/eth-iso-color.png"
-                alt="Currencies and commodities illustration"
-                width={70}
-                height={50}
-                className="mb-4"
-              />
-              <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                Currencies & commodities
-              </h2>
-              <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                Access a wide array of opportunities as you navigate the world
-                of forex, cryptocurrencies, and commodities — each offering
-                unique prospects for traders and investors.
-              </p>
-            </div>
+          <div className=" border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
+            <Image src="/eth-iso-color.png" alt="" width={70} height={50} />
+            <h1 className=" font-medium pb-1.5 text-xl">
+              Currencies & <br></br>
+              commodities
+            </h1>
+            <p className=" text-light pb-3">
+              Access a wide array of opportunities as you<br></br>
+              navigate the world of forex,
+              <br />
+              cryptocurrencies, and commodities, each<br></br>
+              offering unique prospects for traders and investors.
+            </p>
+          </div>
 
-            {/* Card 2 */}
-            <div className="w-full max-w-sm border border-gray-200 rounded-2xl bg-white shadow-md p-6">
-              <Image
-                src="/sheild-iso-color.png"
-                alt="Enterprise security illustration"
-                width={70}
-                height={50}
-                className="mb-4"
-              />
-              <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                Enterprise-grade security
-              </h2>
-              <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                With our enterprise-grade security infrastructure, we prioritize
-                the protection of your financial assets and sensitive
-                information.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="w-full max-w-sm border border-gray-200 rounded-2xl bg-white shadow-md p-6">
-              <Image
-                src="/explorer-iso-color.png"
-                alt="Real-time trading illustration"
-                width={70}
-                height={50}
-                className="mb-4"
-              />
-              <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                Real-time trading
-              </h2>
-              <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                Seamlessly navigate the dynamic world of financial markets as
-                our advanced technology delivers live, up-to-the-second market
-                data.
-              </p>
-            </div>
+          <div className=" max-w-sm w-full sm:max-w-md lg:max-w-lg  border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
+            <Image src="/sheild-iso-color.png" alt="" width={70} height={50} />
+            <h1 className=" font-medium pb-1.5 text-xl">
+              Enterprise grade<br></br> security
+            </h1>
+            <p className=" text-light pb-3">
+              With our enterprise-grade security<br></br>
+              infrastructure, we prioritize the protection <br></br>of your
+              financial assets and sensitive information.
+            </p>
+          </div>
+          <div className=" max-w-sm w-full sm:max-w-md lg:max-w-lg  border-2 rounded-2xl pl-3 pt-10 pb-2.5 pr-3 border-white bg-white">
+            <Image
+              src="/explorer-iso-color.png"
+              alt=""
+              width={70}
+              height={50}
+            />
+            <h1 className=" font-medium pb-1.5 text-xl">
+              Real-time <br></br>trading
+            </h1>
+            <p className=" text-light pb-3">
+              Seamlessly navigate the dynamic<br></br>
+              world of financial markets as our<br></br> advanced technology
+              delivers live, up-<br></br>to-the-second market data.
+            </p>
           </div>
         </div>
       </section>
